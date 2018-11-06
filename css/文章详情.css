@@ -1,0 +1,433 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+body {
+	background: #f1f2f6;
+}
+
+header {
+	color: #ffffff;
+	background: url(../image1/header_bg.jpg)no-repeat center;
+	width: 100%;
+	height: 120px;
+}
+
+.inner {
+	width: 1105px;
+	margin: auto;
+}
+
+header .inner .ul1 {
+	float: right;
+	font-size: 17.405px;
+	font-family: "STKaiti";
+	color: rgb( 255, 255, 255);
+}
+
+header .inner .ul1 div {
+	float: left;
+	margin-right: 25px;
+	line-height: 120px;
+	position: relative;
+}
+
+header .inner .ul1 div img {
+	vertical-align: -6px;
+}
+
+header .inner .ul1 div ul {
+	position: absolute;
+	z-index: 99;
+	background: #36264a;
+	width: 180px;
+	margin-right: 0;
+	top: 80px;
+	left: -55px;
+	display: none;
+}
+
+header .inner .ul1 div:hover ul {
+	display: block;
+	transition: 1s;
+}
+
+header .inner .ul1 div:hover i {
+	opacity: 1;
+	transition: all .4s;
+}
+
+header .inner .ul1 .div2 i {
+	opacity: 1;
+}
+
+header .inner .ul1 div ul li {
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: all .5s;
+	position: relative;
+}
+
+header .inner .ul1 div ul li span {
+	margin-left: 10px;
+	display: none;
+	position: absolute;
+}
+
+header .inner .ul1 div ul li:hover {
+	background: #2f1f4d;
+	padding-left: 20px;
+	color: #00a0ea;
+}
+
+header .inner .ul1 div ul li:hover span {
+	display: inline-block;
+}
+
+.i1 {
+	background: url("../image1/nav_now_bg.png") no-repeat center center;
+	display: block;
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+
+/*正文*/
+
+article {
+	width: 100%;
+}
+
+.a-inner {
+	width: 1105px;
+	height: 1870px;
+	margin: auto;
+	background: white;
+	overflow: hidden;
+	position: relative;
+}
+
+.pen-line {
+	width: 729px;
+}
+
+main {
+	width: 784px;
+	height: 100%;
+	/*background: beige;*/
+	margin: auto;
+}
+
+.tit {
+	width: 226px;
+	height: 129px;
+	/*background: red;*/
+	/*	position: absolute;left: 466px;top: 80px;*/
+	margin-left: 270px;
+	margin-top: 80px;
+}
+
+.tit1 {
+	font-size: 54px;
+	font-family: "STKaiti";
+	color: rgb( 49, 24, 89);
+	z-index: 283;
+}
+
+.tit2 {
+	font-size: 29px;
+	font-family: "STKaiti";
+	color: rgb( 49, 24, 89);
+	z-index: 283;
+	margin-left: 20px;
+}
+
+.tit3 {
+	margin-left: 92px;
+}
+
+.ban-top {
+	width: 100%;
+	height: 96px;
+	/*background: yellow;*/
+	margin-top: 47px;
+	overflow: hidden;
+	position: relative;
+}
+
+.go {
+	/*width: 216px;*/
+	height: 34px;
+	font-size: 30px;
+	font-family: "STKaiti";
+	color: rgb( 49, 24, 89);
+}
+
+.pen {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.time {
+	font-size: 14px;
+	font-family: "STKaiti";
+	color: rgb( 107, 106, 111);
+}
+
+.banner {
+	width: 1105px;
+	height: 233px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.sec1 {
+	width: 100%;
+	height: 331px;
+	margin-top: 30px;
+}
+
+.s-tit {
+	font-size: 24px;
+	font-family: "STKaiti";
+	color: rgb( 71, 70, 74);
+}
+
+.p {
+	font-size: 16px;
+	font-family: "STKaiti";
+	color: rgb( 71, 70, 74);
+	text-indent: 33px;
+	margin-top: 20px;
+}
+
+
+/*2*/
+
+.sec2 {
+	width: 100%;
+	height: 190px;
+	margin-top: 30px;
+}
+
+.s2 {
+	font-size: 16px;
+	font-family: "STKaiti";
+	color: rgb( 71, 70, 74);
+}
+
+.p4 {
+	margin-top: 5px;
+	font-size: 16px;
+	font-family: "STKaiti";
+	color: rgb( 71, 70, 74);
+}
+
+
+/*3*/
+
+.sec3 {
+	width: 100%;
+	height: 170px;
+	margin-top: 30px;
+}
+
+
+/*4*/
+
+.sec4 {
+	width: 100%;
+	height: 70px;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+
+.love {
+	width: 215px;
+	height: 79px;
+	margin-top: 89px;
+	margin-left: 286px;
+	position: relative;
+}
+
+.icon1 {
+	width: 74px;
+	height: 74px;
+	float: left;
+	background: url(../image1/article_iflike.png)no-repeat;
+	background-position: 0px 0px;
+}
+
+.icon1:hover {
+	background-position: 0px -73px;
+}
+
+.icon2 {
+	width: 136px;
+	height: 36px;
+	float: right;
+	color: white;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 20px;
+	background: url(../image1/article_iflike_nomberbg.png)no-repeat;
+}
+
+.wei {
+	width: 255px;
+	height: 80px;
+	background: #f1f2f6;
+	font-size: 29px;
+	font-family: "STKaiti";
+	color: #311859;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 52px;
+	margin-left: 250px;
+}
+
+
+/*尾部*/
+
+.map-bottom {
+	width: 100%;
+	height: 33px;
+	background: url(../image1/map_bottomimg.png)no-repeat center;
+	/*position: absolute;
+    bottom: -1px;*/
+}
+
+.foot {
+	width: 100%;
+	height: 350px;
+	background: url(../image1/yinyue_bg.jpg)no-repeat center;
+}
+
+.ft_main {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.ft_top {
+	width: 100%;
+	height: 265px;
+	padding-top: 1px;
+	position: relative;
+}
+
+.fter_top {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: -30px;
+	top: 30px;
+	background: url(../image1/scroll_top_bg.png)no-repeat;
+}
+
+.email {
+	position: absolute;
+	right: -50px;
+	top: 100px;
+}
+
+.ft_t_main {
+	width: 560px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+.ft_t_main ul li {
+	width: 57px;
+	height: 57px;
+	float: left;
+	margin-right: 26px;
+}
+
+.ft_t_main ul li:nth-child(1) {
+	background: url(../image1/yinyue_duo.png);
+}
+
+.ft_t_main ul li:nth-child(2) {
+	background: url(../image1/yinyue_lai.png);
+}
+
+.ft_t_main ul li:nth-child(3) {
+	background: url(../image1/yinyue_mi.png);
+}
+
+.ft_t_main ul li:nth-child(4) {
+	background: url(../image1/yinyue_fa.png);
+}
+
+.ft_t_main ul li:nth-child(5) {
+	background: url(../image1/yinyue_suo.png);
+}
+
+.ft_t_main ul li:nth-child(6) {
+	background: url(../image1/yinyue_la.png);
+}
+
+.ft_t_main ul li:nth-child(7) {
+	background: url(../image1/yinyue_xi.png);
+	margin-right: 0;
+}
+
+.ft_t_main ul li:nth-child(1):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(2):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(3):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(4):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(5):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(6):hover {
+	background-position: 0px -57px;
+}
+
+.ft_t_main ul li:nth-child(7):hover {
+	background-position: 0px -57px;
+}
+
+.ft_bottom {
+	width: 100%;
+	height: 80px;
+	border-top: 1px dashed #ccc;
+	text-align: center;
+	line-height: 60px;
+	font-size: 18px;
+	font-family: "STKaiti";
+	color: rgb(255, 255, 255);
+}
